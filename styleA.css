@@ -10,11 +10,12 @@ h1 {
     color:  Green;
     align: center;
     font-color: White;
-    
    }
 
 #minister main {
     background-color:  Green ;
-    width: 50px;
-    
+    border-top: 1px;
+    width: 100px;
+    height: 100px;
+    align:center;
 }
