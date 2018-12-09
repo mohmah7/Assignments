@@ -13,7 +13,7 @@ h1 {
 
 #minister main {
     background-color: Green ;
-    border: 10px;
+    border: 10px Solid Gray;
     width: 100px;
     height: 100px;
 }
