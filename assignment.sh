@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd  assignment/Assignment 
+cd  assignments/Assignments
 
 sudo git pull
 
