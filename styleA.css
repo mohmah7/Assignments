@@ -30,7 +30,19 @@ body {
 }
 
 
-#minister miscellaneous , #minister diarrhea , #minister hypertension {
+#minister miscellaneous {
+    background-color: Green ;
+    border: 10px solid Black;
+    width: 100px;
+    height: 100px;
+    ###padding-left: 100px;
+    ###margin-left: 20px;
+    ###padding-top: 20px;
+    ###margin-top: 20px; 
+    ###position: (0,0); 
+}
+
+#minister hypertension {
     background-color: Green ;
     border: 10px solid Black;
     width: 100px;
