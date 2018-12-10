@@ -12,7 +12,7 @@ body {
 }
 #minister * {
     color:  White;
-    align:  vertical;
+    ###align:  vertical;
     font-family: Arial;
     font-color: White;
    }
