@@ -62,6 +62,7 @@ body {
 .movement {
     background-color: Red;
     border: 10PX solid  Black;
+    padding-top:   10px;
     width: 100px;
     height: 100px;
 }
