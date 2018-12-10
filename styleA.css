@@ -15,15 +15,15 @@ body {
     ###align:  vertical;
     font-family: Arial;
     font-color: White;
-    hight: 100px;
-    width: 100px;
+    ###hight: 100px;
+    ###width: 100px;
    }
 
 #minister main {
     background-color: Green ;
     border: 10px solid Black;
-    ###width: 100px;
-    ###height: 100px;
+    width: 100px;
+    height: 100px;
     ###padding-left: 100px;
     ###margin-left: 20px;
     position: fixed: (0,0); 
@@ -33,8 +33,8 @@ body {
 #minister miscellaneous , #minister diarrhea , #minister hypertension {
     background-color: Green ;
     border: 10px solid Black;
-    ###width: 100px;
-    ###height: 100px;
+    width: 100px;
+    height: 100px;
     ###padding-left: 100px;
     ###margin-left: 20px;
     ###padding-top: 20px;
