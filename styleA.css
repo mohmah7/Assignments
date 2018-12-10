@@ -28,9 +28,10 @@ body {
     border: 10px solid Brown ;
     width: 100px;
     height: 100px;
-    padding-left: 300px;
+    padding-left: 100px;
     ###margin-left: 20px;
     margin-bottom:  20px; 
+    Alignment: center;
     position: fixed: (0,0); 
 }
 
