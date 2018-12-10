@@ -7,9 +7,10 @@ h1 {
 }
 
 
-body {
-    margin: 0;
-}
+###body {
+ ###   margin: 0;
+###}
+
 #minister * {
     color:  White;
     ###align:  vertical;
