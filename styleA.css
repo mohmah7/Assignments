@@ -21,8 +21,8 @@ body {
     background-color: Green ;
     border: 10px solid Black;
     width: 100px;
-    height: 100px;
-    padding-left: 100px;
+    ###height: 100px;
+    ###padding-left: 100px;
     margin-left: 20px;
     position: center; 
 }
