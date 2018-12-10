@@ -26,6 +26,7 @@ body {
     height: 100px;
     ###padding-left: 100px;
     ###margin-left: 20px;
+    margin-bottom:  20px; 
     position: fixed: (0,0); 
 }
 
