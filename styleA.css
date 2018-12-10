@@ -49,7 +49,7 @@ body {
 
 #minister hypertension {
     background-color: Green ;
-    border: 10px solid Black;
+    border: 10px solid Brown ;
     width: 100px;
     height: 100px;
     ###padding-left: 100px;
@@ -61,7 +61,7 @@ body {
 
 .movement {
     background-color: Red;
-    border: 10PX solid Brown;
+    border: 10PX solid  Black;
     width: 100px;
     height: 100px;
 }
