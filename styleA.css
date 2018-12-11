@@ -37,19 +37,19 @@ body {
 }
 
 
-#cheese miscellaneous {
-    background-color:  Purple  ;
-    border: 10px solid Brown ;
-    width: 100px;
-    height: 100px;
-    margin:  300px;
+###cheese miscellaneous {
+    ###background-color:  Purple  ;
+    ###border: 10px solid Brown ;
+   ### width: 100px;
+    ###height: 100px;
+    ###margin:  300px;
     ###padding-left: 100px;
     ###margin-left: 20px;
     ###padding-top: 20px;
     ###margin-top: 20px; 
     ###position: (0,0); 
-    margin-buttom: 20px;
-}
+    ###margin-buttom: 20px;
+###}
 
 #movement hypertension {
     background-color: Green ;
@@ -66,10 +66,10 @@ body {
 }
 
 #nausea diarrhea {
-    background-color: Red;
-    border: 10PX solid  Black;
+    ##%background-color: Red;
+   ##% border: 10PX solid  Black;
     ###padding-top:   10px;
-    width: 100px;
-    height: 100px;
-    margin: 300px;
-}
+    ###width: 100px;
+    ###height: 100px;
+    ###margin: 300px;
+###}
