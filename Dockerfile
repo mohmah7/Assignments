@@ -8,4 +8,4 @@ RUN apt-get install git -y
 
 RUN git clone http://github.com/mohmah7/Assignments 
 
-CMD ["/etc/init.d/apache2 start"]
+##CMD ["/etc/init.d/apache2 start"]
