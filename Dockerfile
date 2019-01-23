@@ -13,6 +13,6 @@ RUN cp Assignments/12AEDCF4-8EB5-4E78-80CC-69B80297EA3B.jpeg /var/www/html/
 
 ##EXPOSE 80
 
-RUN /etc/init.d/apache2 start
+##RUN /etc/init.d/apache2 start
 
 ##CMD ["/etc/init.d/apache2 start"]
