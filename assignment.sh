@@ -1,9 +1,16 @@
 #!/bin/bash
 
-cd  assignments/Assignments
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
-sudo git pull
+sudo amazon-linux-extras install docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
 
-sudo cp index.html /var/www/html
+#cd  assignments/Assignments
 
-sudo cp styleA.css /var/www/html
+#sudo git pull
+
+#sudo cp index.html /var/www/html
+
+#sudo cp styleA.css /var/www/html
