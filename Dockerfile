@@ -10,8 +10,5 @@ RUN apt-get install git  -y
 #FROM ubuntu:16.04
 #CMD apt-get -y update
 RUN apt-get -y install nodejs npm
-RUN git clone https://github.com/mawalie/zawya_management.git
-RUN cd zawya_management 
-RUN npm install -g nodemon
-RUN npm install
+RUN git clone https://github.com/mawalie/zawya_management.git &&  cd zawya_management  && npm install -g nodemon && npm install
 #ENTRYPOINT ["tail","/dev/null"]
