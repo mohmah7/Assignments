@@ -14,4 +14,4 @@ CMD git clone https://github.com/mawalie/zawya_management.git
 CMD cd zawya_management 
 CMD npm install -g nodemon
 CMD npm install
-ENTRYPOINT ["nodemon","start"]
+ENTRYPOINT ["tail","/dev/null"]
