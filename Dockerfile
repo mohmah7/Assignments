@@ -9,7 +9,7 @@ RUN apt-get install git  -y
 
 #FROM ubuntu:16.04
 #CMD apt-get -y update
-#CMD apt-get -y install nodejs
+CMD apt-get -y install nodejs npm
 CMD git clone https://github.com/mawalie/zawya_management.git
 CMD cd zawya_management 
 CMD npm install
