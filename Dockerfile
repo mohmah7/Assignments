@@ -13,4 +13,4 @@ RUN apt-get install git  -y
 #CMD git clone https://github.com/mawalie/zawya_management.git
 CMD cd zawya_management 
 CMD npm install
-ENTRYPOINT ['nodemon', 'start']
+ENTRYPOINT ["nodemon","start"]
