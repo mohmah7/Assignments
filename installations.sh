@@ -21,5 +21,5 @@ sudo add-apt-repository \
 
 
 sudo apt-get install docker-ce
-sudo usermod -a -G docker ubuntu
+#sudo usermod -a -G docker ubuntu
 
