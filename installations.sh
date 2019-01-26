@@ -1,23 +1,25 @@
 #!/bin/bash
 
-apt-get update -y
-apt-get upgrade -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
-apt-get install \
+sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg2 \
     software-properties-common
  
-apt-get install curl -y
+sudo apt-get install curl -y
     
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
 
-add-apt-repository \
+sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
 
 
-apt-get install docker-ce
+sudo apt-get install docker-ce
+sudo usermod -a -G docker ubuntu
+
