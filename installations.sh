@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
+sudo apt-get update 
+sudo apt-get upgrade 
 
 sudo apt-get install \
     apt-transport-https \
@@ -10,9 +10,10 @@ sudo apt-get install \
     gnupg2 \
     software-properties-common
  
-sudo apt-get install curl -y
     
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg |  apt-key add -
+
+sudo apt-key fingerprint 0EBFCD88
 
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
