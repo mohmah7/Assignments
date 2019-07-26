@@ -1,6 +1,0 @@
-print(‘ good morning ‘)
-print(“lomaoikeutta”)
-loma=input()
-print (”paivat”)
-paivat = input()
-print (loma, paivat)
