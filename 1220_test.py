@@ -1,0 +1,6 @@
+print(“good morning “)
+print(“enter lomaoikeus In kk”)
+Lima=input()
+print(“number of days “)
+days =input ()
+print(“number of days =“, Lima*days)
