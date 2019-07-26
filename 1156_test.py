@@ -1,0 +1,6 @@
+print(“ good morning “)
+print(“ no mä oik ”)
+loma=input()
+print (“ päivät ”)
+ paivat = input()
+print (loma, paivat)
