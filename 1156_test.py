@@ -1,4 +1,4 @@
-print(“ good morning “)
+print(‘good morning’)
 print(“ lomaoikeutta  ”)
 loma=input()
 print (“ paivat ”)
