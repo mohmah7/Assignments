@@ -15,4 +15,4 @@ while len(Philosophy) < 10005:
 
 #for hand in Philosophy:
 #      print( hand)
-print (philosophy[10000])
+print (Philosophy[10000])
