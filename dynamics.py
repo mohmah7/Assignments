@@ -4,7 +4,7 @@ diseases = 2
 
 
 
-while len(Philosophy) < 10001:
+while len(Philosophy) < 10005:
         management = diseases
         inflammation = diseases -1
         while diseases  % inflammation != 0:
@@ -15,4 +15,4 @@ while len(Philosophy) < 10001:
 
 #for hand in Philosophy:
 #      print( hand)
- Print philosophy[10000]
+print (philosophy[10000])
