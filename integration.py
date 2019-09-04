@@ -1,4 +1,4 @@
-Erasmus = file.open(‘w’,‘Erasmus.txt’)
+Erasmus = file.open(‘W’,‘Erasmus.txt’)
 
 Integration = 239239932
 Erasmus.write(integration)
