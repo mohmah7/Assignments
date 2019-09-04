@@ -8,11 +8,11 @@ Philosophy  = 0
 Absolutely = 1
 structuring = (Philosophy *Philosophy )+ (Absolutely* Absolutely )
 while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) != 1000 :
-          if Philosophy <  50 : 
+          if Philosophy <  999 : 
                 Philosophy += 1
                 Absolutely = Philosophy +1 
                 print (Absolutely, Philosophy)
-          while Absolutely <  50 :
+          while Absolutely <  999 :
                     Absolutely += 1
                     structuring = (Philosophy *Philosophy )+ ( Absolutely * Absolutely)
                     structuring = structuring** 0.5
