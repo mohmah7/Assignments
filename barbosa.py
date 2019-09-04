@@ -1,25 +1,20 @@
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
+green = 0
+carpenter = 1
+lemons = (green *green) + ( carpenter* carpenter )
+lemon = lemons ** 0.5
+while carpenter  <999 or green < 999:
+         if carpenter  == 999:
+                #carpenter = green + 1
+                green  += 1
+                carpenter = green + 1 
+         carpenter  +=1
+         lemons = ((green *green) + ( carpenter* carpenter ))
+         lemon = lemons ** 0.5
+         #print(lemon)
+         if lemon % 1 == 0:
+                watermelon = lemon + green +  carpenter 
+                #if watermelon  == 1000: 
+                print (lemon, green, carpenter )
 
-def solution(A):
-    # write your code in Python 3.6
-    pass
-Philosophy  = 0
-Absolutely = 1
-structuring = (Philosophy *Philosophy )+ (Absolutely* Absolutely )
-while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) <= 1000 :
-          if Philosophy <  999 : 
-                Philosophy += 1
-                Absolutely = Philosophy +1 
-                print (Absolutely, Philosophy)
-          while Absolutely <  999 :
-                    Absolutely += 1
-                    structuring = (Philosophy *Philosophy )+ ( Absolutely * Absolutely)
-                    structuring = structuring** 0.5
-                    print (structuring )
-                    if structuring % 1 == 0:
-                           if structuring + Philosophy + Absolutely == 1000: 
-                                  print (23456789)
-          #Absolutely = Philosophy +1 
-print (Absolutely ,Philosophy )
-print (987654321,  structuring )
+if watermelon  == 1000: 
+      print (lemon, green, carpenter )
