@@ -13,8 +13,8 @@ while carpenter  <999 or green < 999:
          #print(lemon)
          if lemon % 1 == 0:
                 watermelon = lemon + green +  carpenter 
-                #if watermelon  == 1000: 
-                print (lemon, green, carpenter )
+                if watermelon  == 1000: 
+                      print (lemon, green, carpenter )
 
-if watermelon  == 1000: 
-      print (lemon, green, carpenter )
+#if watermelon  == 1000: 
+#      print (lemon, green, carpenter )
