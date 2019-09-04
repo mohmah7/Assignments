@@ -4,8 +4,8 @@
 def solution(A):
     # write your code in Python 3.6
     pass
-Philosophy  = 1
-Absolutely = 2
+Philosophy  = 0
+Absolutely = 1
 structuring = (Philosophy *Philosophy )+ (Absolutely* Absolutely )
 while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) != 1000 :
           if Philosophy <  50 : 
@@ -14,12 +14,12 @@ while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) != 1000 :
                 print (Absolutely, Philosophy)
           while Absolutely <  50 :
                     Absolutely += 1
-                    structure = (Philosophy *Philosophy )+ ( Absolutely * Absolutely)
-                    structure = structure ** 0.5
-                    print (structure)
-                    if structure % 1 == 0:
-                           if structure + Philosophy + Absolutely == 1000: 
+                    structuring = (Philosophy *Philosophy )+ ( Absolutely * Absolutely)
+                    structuring = structuring** 0.5
+                    print (structuring )
+                    if structuring % 1 == 0:
+                           if structuring + Philosophy + Absolutely == 1000: 
                                   print (23456789)
           #Absolutely = Philosophy +1 
 print (Absolutely ,Philosophy )
-print (987654321,  structure )
+print (987654321,  structuring )
