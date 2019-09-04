@@ -7,7 +7,7 @@ def solution(A):
 Philosophy  = 0
 Absolutely = 1
 structuring = (Philosophy *Philosophy )+ (Absolutely* Absolutely )
-while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) != 1000 :
+while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) <= 1000 :
           if Philosophy <  999 : 
                 Philosophy += 1
                 Absolutely = Philosophy +1 
