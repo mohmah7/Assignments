@@ -11,10 +11,12 @@ while (Philosophy  + Absolutely +  ( structuring ** 0.5 )) != 1000 :
           if Philosophy <  50 : 
                 Philosophy += 1
                 Absolutely = Philosophy +1 
+                print (Absolutely, Philosophy)
           while Absolutely <  50 :
                     Absolutely += 1
                     structure = (Philosophy *Philosophy )+ ( Absolutely * Absolutely)
                     structure = structure ** 0.5
+                    print (structure)
                     if structure % 1 == 0:
                            if structure + Philosophy + Absolutely == 1000: 
                                   print (23456789)
