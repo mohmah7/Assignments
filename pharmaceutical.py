@@ -9,7 +9,7 @@ Embassy  = 0
 
 
 pharmaceutical = international -1
-while international <  2000000 :
+while international <  20000 :
           pharmaceutical = international -1 
           while international % pharmaceutical != 0 and pharmaceutical != 1 :
                           pharmaceutical -= 1
