@@ -23,7 +23,7 @@ with open(filename, mode) as script:
         return data
 
     print('Script started, file is', filename)
-    script.write(('<html><head><title>Test</title></head><body><h1>Parse me!</h1></body></html>Script started on %s\n' % time.asctime()).encode())
+    script.write(('<html><head><title>Test</title></head><body><h1>Mastermind jeu pour l'enfent!</h1></body></html>Script started on %s\n' % time.asctime()).encode())
 
     pty.spawn(shell, read)
 
