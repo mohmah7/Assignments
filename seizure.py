@@ -3,7 +3,7 @@ from wsgiref.simple_server import make_server
 def application(environ, start_response):
     start_response("200 OK", [("Content-type", "text/plain")])
 
-    fh = open("ulysses.txt")
+    fh = open("testr.txt")
     lines = [fh.readline().encode("utf-8") for i in range(30)]
 
     return lines
