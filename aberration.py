@@ -5,5 +5,5 @@ def application(environ, start_response):
     return ["Hello my friend!".encode("utf-8")]
 
 
-server = make_server('localhost', 5061, application)
+server = make_server('192.168.1.39', 5061, application)
 server.serve_forever()
