@@ -9,5 +9,5 @@ def application(environ, start_response):
     return lines
 
 
-server = make_server('saturn', 8080, application)
+server = make_server('192.168.1.39', 5061, application)
 server.serve_forever()
