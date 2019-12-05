@@ -18,9 +18,9 @@ mode = 'ab' if options.append else 'wb'
 with open(filename, mode) as script:
     def read(fd):
         data = os.read(fd, 1024)
-        exam = '<html><head><title>Test</title></head>' + '<body><h1>Parse me!</h1></body></html>'
+        data= '<html><head><title>Test</title></head>' + data + '<body><h1>Parse me!</h1></body></html>'
 
-        script.write(exam,data)
+        script.write(data)
         return data
 
     print('Script started, file is', filename)
