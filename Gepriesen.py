@@ -18,7 +18,6 @@ mode = 'ab' if options.append else 'wb'
 with open(filename, mode) as script:
     def read(fd):
         data = os.read(fd, 1024)
-        script.write('<html><head><title>Test</title></head><body><h1>Parse me!</h1></body></html>')
 
         script.write(data)
         return data
