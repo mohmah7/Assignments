@@ -30,10 +30,10 @@ sense. 3 blacks and 1 white make no sense for example. """
 def get_evaluation():
    """ asks the human player for an evaluation """
    show_current_guess(new_guess[0])
-   #rightly_positioned = int(input("Blacks: "))
-   rightly_positioned = 1
-   permutated = 2
-   #permutated = int(input("Whites: "))
+   rightly_positioned = int(input("Blacks: "))
+   #rightly_positioned = 1
+   #permutated = 2
+   permutated = int(input("Whites: "))
    return (rightly_positioned, permutated)
 
 def new_evaluation(current_colour_choices):
