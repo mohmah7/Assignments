@@ -4,7 +4,7 @@ from combinatorics import all_colours
 
 a = "beautiful"
 
-def index(ars):
+def index(self, ars):
     return ars 
 
 index(a)
