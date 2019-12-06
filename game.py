@@ -6,7 +6,7 @@ a = "beautiful"
 b = "day"
 
 def index():
-    ars = """%s%s""""% ( a,b)
+    ars = """%s%s"""% ( a,b)
     return ars 
 
 
