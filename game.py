@@ -1,8 +1,8 @@
 import random
 from combinatorics import all_colours
 
-#def index():
-#    return "Hello Python!"
+def index():
+    return "Hello Python!"
 
 
 def inconsistent(p, guesses):
