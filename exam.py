@@ -93,7 +93,7 @@ def show_current_guess(new_guess):
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
 is printed """
-   print("Previous Guesses:")
+   return "Previous Guesses:"
    for guess in guesses:
       guessed_colours = guess[0]
       #for c in guessed_colours:
