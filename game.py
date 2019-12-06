@@ -2,7 +2,7 @@ import random
 from combinatorics import all_colours
 
 def index():
-    return "Hello Python!"
+    return "New guess !"
 
 
 def inconsistent(p, guesses):
