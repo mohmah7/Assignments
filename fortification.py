@@ -12,4 +12,4 @@ The local time of this server is:  %s
 </html>
 """ % (time.ctime(time.time()), time.timezone/3600)
         return html
-</pre>
+#</pre>
