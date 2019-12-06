@@ -1,6 +1,10 @@
 import random
 from combinatorics import all_colours
 
+def index():
+    return "Hello Python!"
+
+
 def inconsistent(p, guesses):
    """ the function checks, if a permutation p, i.e. a list of 
 colours like p = ['pink', 'yellow', 'green', 'red'] is consistent
