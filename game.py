@@ -48,7 +48,7 @@ and creates a new guess """
       return(current_colour_choices, (rightly_positioned, permutated))
 	
    if not answer_ok((rightly_positioned, permutated)):
-      print("Input Error: Sorry, the input makes no sense")
+      #print("Input Error: Sorry, the input makes no sense")
       return(current_colour_choices, (-1, permutated))
    guesses.append((current_colour_choices, (rightly_positioned, permutated)))
    view_guesses()
@@ -80,28 +80,29 @@ previous guesses """
       try:
          next_choice = next(permutation_iterator)
       except StopIteration:
-         print("Error: Your answers were inconsistent!")
+         #print("Error: Your answers were inconsistent!")
          return ()
    return next_choice
 
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
    print("New Guess: ",end=" ")
+   return "new Guess"
 
-   for c in new_guess:
-      print(c, end=" ")
-   print()
+   #for c in new_guess:
+      #print(c, end=" ")
+   #print()
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
 is printed """
-   print("Previous Guesses:")
+   #print("Previous Guesses:")
    for guess in guesses:
       guessed_colours = guess[0]
-      for c in guessed_colours:
-         print(c, end=" ")
-      for i in guess[1]:
-         print(" %i " % i, end=" ")
+      #for c in guessed_colours:
+         #print(c, end=" ")
+      #for i in guess[1]:
+         #print(" %i " % i, end=" ")
       print()
 
 if __name__ == "__main__":
