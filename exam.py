@@ -82,11 +82,11 @@ previous guesses """
 
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
-   print("New Guess: ",end=" ")
+   return "New Guess: "
 
-   for c in new_guess:
-      print(c, end=" ")
-   print()
+   #for c in new_guess:
+      #print(c, end=" ")
+   #print()
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
