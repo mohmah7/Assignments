@@ -94,8 +94,8 @@ is printed """
    print("Previous Guesses:")
    for guess in guesses:
       guessed_colours = guess[0]
-      #for c in guessed_colours:
-         #print(c, end=" ")
+      for c in guessed_colours:
+         print(c, end=" ")
       #for i in guess[1]:
          #print(" %i " % i, end=" ")
       print()
