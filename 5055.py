@@ -76,22 +76,22 @@ previous guesses """
       try:
          next_choice = next(permutation_iterator)
       except StopIteration:
-         print("Error: Your answers were inconsistent!")
-         return ()
+         return ("Error: Your answers were inconsistent!")
+         #return ()
    return next_choice
 
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
-   print("New Guess: ",end=" ")
+   return("New Guess: ",end=" ")
 
    for c in new_guess:
-      print(c, end=" ")
-   print()
+      return (c, end=" ")
+   return
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
 is printed """
-   print("Previous Guesses:")
+   return ("Previous Guesses:")
    for guess in guesses:
       guessed_colours = guess[0]
       for c in guessed_colours:
