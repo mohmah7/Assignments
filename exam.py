@@ -30,8 +30,8 @@ sense. 3 blacks and 1 white make no sense for example. """
 def get_evaluation():
    """ asks the human player for an evaluation """
    show_current_guess(new_guess[0])
-   rightly_positioned = int(input("Blacks: "))
-   permutated = int(input("Whites: "))
+   #rightly_positioned = int(input("Blacks: "))
+   #permutated = int(input("Whites: "))
    return (rightly_positioned, permutated)
 
 def new_evaluation(current_colour_choices):
@@ -44,7 +44,7 @@ and creates a new guess """
       return(current_colour_choices, (rightly_positioned, permutated))
 	
    if not answer_ok((rightly_positioned, permutated)):
-      print("Input Error: Sorry, the input makes no sense")
+      #print("Input Error: Sorry, the input makes no sense")
       return(current_colour_choices, (-1, permutated))
    guesses.append((current_colour_choices, (rightly_positioned, permutated)))
    view_guesses()
@@ -76,7 +76,7 @@ previous guesses """
       try:
          next_choice = next(permutation_iterator)
       except StopIteration:
-         print("Error: Your answers were inconsistent!")
+         #print("Error: Your answers were inconsistent!")
          return ()
    return next_choice
 
@@ -94,8 +94,8 @@ is printed """
    print("Previous Guesses:")
    for guess in guesses:
       guessed_colours = guess[0]
-      for c in guessed_colours:
-         print(c, end=" ")
+      #for c in guessed_colours:
+         #print(c, end=" ")
       #for i in guess[1]:
          #print(" %i " % i, end=" ")
       print()
