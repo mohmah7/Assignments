@@ -86,7 +86,7 @@ previous guesses """
 
 def show_current_guess(new_guess):
    """ The current guess is printed to stdout """
-   print("New Guess: ",end=" ")
+   #print("New Guess: ",end=" ")
    return "new Guess"
 
    #for c in new_guess:
