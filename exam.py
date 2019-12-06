@@ -95,9 +95,9 @@ is printed """
    for guess in guesses:
       guessed_colours = guess[0]
       for c in guessed_colours:
-         print(c, end=" ")
+         #print(c, end=" ")
       for i in guess[1]:
-         print(" %i " % i, end=" ")
+         #print(" %i " % i, end=" ")
       print()
 
 if __name__ == "__main__":
