@@ -6,10 +6,10 @@ a = "beautiful"
 b = "day"
 
 def index():
-    ars = """%s%s""""%a,b
+    ars = """%s%s""""% a,b
     return ars 
 
-index(a)
+
 
 def inconsistent(p, guesses):
    """ the function checks, if a permutation p, i.e. a list of 
