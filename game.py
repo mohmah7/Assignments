@@ -1,9 +1,13 @@
 import random
 from combinatorics import all_colours
 
-def index():
-    return "New guess !"
 
+a = "beautiful"
+
+def index(ars):
+    return ars 
+
+index(a)
 
 def inconsistent(p, guesses):
    """ the function checks, if a permutation p, i.e. a list of 
