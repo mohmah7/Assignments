@@ -3,8 +3,10 @@ from combinatorics import all_colours
 
 
 a = "beautiful"
+b = "day"
 
-def index(self, ars):
+def index():
+    ars = """%s%s""""%a,b
     return ars 
 
 index(a)
