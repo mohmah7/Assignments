@@ -24,7 +24,7 @@ def index():
 </FORM>
 </body>
 </html>
-""" % (guessing)
+""" % (show_current_guess)
     return ars 
 
 
@@ -119,7 +119,7 @@ def show_current_guess(new_guess):
    #print()
    return guessing
 
-guessing= show_current_guess(new_guess)
+#guessing= show_current_guess(new_guess)
 
 
 
