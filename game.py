@@ -59,7 +59,7 @@ sense. 3 blacks and 1 white make no sense for example. """
 def get_evaluation(req):
    """ asks the human player for an evaluation """
    info = req.form
-   show_current_guess(new_guess[0])
+   #show_current_guess(new_guess[0])
    #rightly_positioned = int(input("Blacks: "))
    rightly_positioned = info['Blacks']
    #permutated = int(input("Whites: "))
