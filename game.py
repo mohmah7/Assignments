@@ -5,7 +5,7 @@ from combinatorics import all_colours
 a = "beautiful"
 b = "day"
 
-def index():
+def index(guessing):
     #ars = """%s%s"""% ( a,b)
     ars = """
 <html><head>
