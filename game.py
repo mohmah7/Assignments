@@ -5,7 +5,7 @@ from combinatorics import all_colours
 a = "beautiful"
 b = "day"
 
-def index(guessing):
+def index():
     #ars = """%s%s"""% ( a,b)
     ars = """
 <html><head>
@@ -118,6 +118,10 @@ def show_current_guess(new_guess):
       guessing = + c
    #print()
    return guessing
+
+guessing= show_current_guess()
+
+
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
