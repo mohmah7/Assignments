@@ -119,7 +119,7 @@ def show_current_guess(new_guess):
    #print()
    return guessing
 
-guessing= show_current_guess()
+guessing= show_current_guess(new_guess)
 
 
 
