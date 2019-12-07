@@ -16,7 +16,7 @@ def index():
   <P>
 	<LABEL for="Blacks">Blacks: </LABEL>
 	<INPUT type="text" name="Blacks"><BR>
-	#<LABEL for="Whites">White: </LABEL>
+	<LABEL for="Whites">White: </LABEL>
 	<INPUT type="text" name="Whites"><BR>
 	<INPUT type="submit" value="Send"> <INPUT type="reset">
   </P>
