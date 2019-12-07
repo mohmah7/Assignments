@@ -12,6 +12,7 @@ def index():
 <title>Formular</title>
 </head>
 <body>
+<P>%s</P>
 <FORM value="form" action="get_info" method="post">
   <P>
 	<LABEL for="Blacks">Blacks: </LABEL>
@@ -23,7 +24,7 @@ def index():
 </FORM>
 </body>
 </html>
-"""
+""" % (guessing)
     return ars 
 
 
