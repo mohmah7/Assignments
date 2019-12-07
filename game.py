@@ -2,6 +2,7 @@ import random
 from combinatorics import all_colours
 global new_guess
 
+new_guess = ""
 
 
 a = "beautiful"
