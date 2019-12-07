@@ -64,7 +64,15 @@ def get_evaluation(req):
    rightly_positioned = info['Blacks']
    #permutated = int(input("Whites: "))
    permutated = info['Whites']
-   return (rightly_positioned, permutated)
+   possible = <html><head>
+<title>Formular</title>
+</head>
+<body>
+<P>statistics </P>
+</body>
+</html>
+"""
+   return (rightly_positioned, permutated, possible)
 
 def new_evaluation(current_color_choices):
    """ This funtion gets an evaluation of the current guess, checks 
