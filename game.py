@@ -72,7 +72,8 @@ def get_evaluation(req):
 </body>
 </html>
 """
-   return (rightly_positioned, permutated, possible)
+   #return (rightly_positioned, permutated, possible)
+   return possible
 
 def new_evaluation(current_color_choices):
    """ This funtion gets an evaluation of the current guess, checks 
