@@ -7,7 +7,7 @@ b = "day"
 
 def index():
     #ars = """%s%s"""% ( a,b)
-    ars = “””
+    ars = """
 <html><head>
 <title>Formular</title>
 </head>
