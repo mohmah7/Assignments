@@ -5,7 +5,7 @@ from combinatorics import all_colours
 #new_guess = "  "
 
 
-a = "beautiful"
+a = "jeu pour les enfants"
 b = "day"
 
 
@@ -148,5 +148,5 @@ def index():
 </FORM>
 </body>
 </html>
-""" % (show_current_guess(new_guess[0]))
+""" % (a)
     return ars 
