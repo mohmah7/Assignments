@@ -8,28 +8,6 @@ from combinatorics import all_colours
 a = "jeu pour les enfants"
 b = "day"
 
-def index():
-    #ars = """%s%s"""% ( a,b)
-    ars = """
-<html><head>
-<title>Formular</title>
-</head>
-<body>
-<P>%s</P>
-<FORM value="form" action="get_evaluation" method="post">
-  <P>
-	<LABEL for="Blacks">Blacks: </LABEL>
-	<INPUT type="text" name="Blacks"><BR>
-	<LABEL for="Whites">White: </LABEL>
-	<INPUT type="text" name="Whites"><BR>
-	<INPUT type="submit" value="Send"> <INPUT type="reset">
-  </P>
-</FORM>
-</body>
-</html>
-""" % (a)
-    return ars 
-
 def inconsistent(p, guesses):
    """ the function checks, if a permutation p, i.e. a list of 
 colours like p = ['pink', 'yellow', 'green', 'red'] is consistent
@@ -161,4 +139,26 @@ if __name__ == "__main__":
    new_guess = (current_colour_choices, (0,0) )
    while (new_guess[1][0] == -1) or (new_guess[1][0] != number_of_positions):
       new_guess = new_evaluation(new_guess[0])
+
+   def index():
+       #ars = """%s%s"""% ( a,b)
+       ars = """
+<html><head>
+<title>Formular</title>
+</head>
+<body>
+<P>%s</P>
+<FORM value="form" action="get_evaluation" method="post">
+  <P>
+	<LABEL for="Blacks">Blacks: </LABEL>
+	<INPUT type="text" name="Blacks"><BR>
+	<LABEL for="Whites">White: </LABEL>
+	<INPUT type="text" name="Whites"><BR>
+	<INPUT type="submit" value="Send"> <INPUT type="reset">
+  </P>
+</FORM>
+</body>
+</html>
+""" % (show_current_guess(new_guess[0])
+       return ars 
 
