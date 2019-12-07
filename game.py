@@ -38,12 +38,15 @@ sense. 3 blacks and 1 white make no sense for example. """
 
 def get_evaluation(req):
    """ asks the human player for an evaluation """
+   info = req.form
    show_current_guess(new_guess[0])
-   rightly_positioned = int(input("Blacks: "))
-   permutated = int(input("Whites: "))
+   #rightly_positioned = int(input("Blacks: "))
+   rightly_positioned = info['Blacks']
+   #permutated = int(input("Whites: "))
+   permutated = info['Whites']
    return (rightly_positioned, permutated)
 
-def new_evaluation(current_colour_choices):
+def new_evaluation(current_color_choices):
    """ This funtion gets an evaluation of the current guess, checks 
 the consistency of this evaluation, adds the guess together with
 the evaluation to the list of guesses, shows the previous guesses 
