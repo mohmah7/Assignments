@@ -64,7 +64,7 @@ def get_evaluation(req):
    rightly_positioned = info['Blacks']
    #permutated = int(input("Whites: "))
    permutated = info['Whites']
-   possible = <html><head>
+   possible = """<html><head>
 <title>Formular</title>
 </head>
 <body>
