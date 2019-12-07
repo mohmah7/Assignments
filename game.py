@@ -118,7 +118,7 @@ def show_current_guess(new_guess):
 
    for c in new_guess:
       #print(c, end=" ")
-      guessing = + c
+      guessing  += c
    #print()
    return guessing
 
