@@ -14,9 +14,9 @@ def index():
 <body>
 <FORM value="form" action="get_info" method="post">
   <P>
-	<LABEL for="blacks”>Blacks: </LABEL>
+	#<LABEL for="blacks”>Blacks: </LABEL>
 	<INPUT type="text" name="firstname"><BR>
-	<LABEL for="Whites”>White: </LABEL>
+	#<LABEL for="Whites”>White: </LABEL>
 	<INPUT type="text" name="lastname"><BR>
 	<INPUT type="submit" value="Send"> <INPUT type="reset">
   </P>
