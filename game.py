@@ -8,28 +8,6 @@ new_guess = ""
 a = "beautiful"
 b = "day"
 
-def index():
-    #ars = """%s%s"""% ( a,b)
-    ars = """
-<html><head>
-<title>Formular</title>
-</head>
-<body>
-<P>%s</P>
-<FORM value="form" action="get_info" method="post">
-  <P>
-	<LABEL for="Blacks">Blacks: </LABEL>
-	<INPUT type="text" name="Blacks"><BR>
-	<LABEL for="Whites">White: </LABEL>
-	<INPUT type="text" name="Whites"><BR>
-	<INPUT type="submit" value="Send"> <INPUT type="reset">
-  </P>
-</FORM>
-</body>
-</html>
-""" % (show_current_guess(new_guess))
-    return ars 
-
 
 
 def inconsistent(p, guesses):
@@ -158,7 +136,7 @@ def index():
 </FORM>
 </body>
 </html>
-""" % (show_current_guess(new_guess))
+""" % (show_current_guess(new_guess[0]))
     return ars 
 
 
