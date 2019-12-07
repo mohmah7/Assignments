@@ -112,9 +112,11 @@ def show_current_guess(new_guess):
    #print("New Guess: ",end=" ")
    return "new Guess"
 
-   #for c in new_guess:
+   for c in new_guess:
       #print(c, end=" ")
+      guessing = + c
    #print()
+   return guessing
 
 def view_guesses():
    """ The list of all guesses with the corresponding evaluations 
