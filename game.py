@@ -117,6 +117,18 @@ is printed """
          #print(" %i " % i, end=" ")
       print()
 
+if __name__ == "__main__":
+   colours = ["red","green","blue","yellow","orange","pink"]
+   guesses = []				
+   number_of_positions = 4
+
+   permutation_iterator = all_colours(colours, number_of_positions)
+   current_colour_choices = next(permutation_iterator)
+
+   new_guess = (current_colour_choices, (0,0) )
+   while (new_guess[1][0] == -1) or (new_guess[1][0] != number_of_positions):
+      new_guess = new_evaluation(new_guess[0])
+
 def index():
     #ars = """%s%s"""% ( a,b)
     ars = """
@@ -138,17 +150,3 @@ def index():
 </html>
 """ % (show_current_guess(new_guess[0]))
     return ars 
-
-
-
-if __name__ == "__main__":
-   colours = ["red","green","blue","yellow","orange","pink"]
-   guesses = []				
-   number_of_positions = 4
-
-   permutation_iterator = all_colours(colours, number_of_positions)
-   current_colour_choices = next(permutation_iterator)
-
-   new_guess = (current_colour_choices, (0,0) )
-   while (new_guess[1][0] == -1) or (new_guess[1][0] != number_of_positions):
-      new_guess = new_evaluation(new_guess[0])
