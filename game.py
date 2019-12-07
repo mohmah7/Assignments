@@ -147,7 +147,7 @@ if __name__ == "__main__":
 <title>Formular</title>
 </head>
 <body>
-<P>%s</P>
+<P></P>
 <FORM value="form" action="get_evaluation" method="post">
   <P>
 	<LABEL for="Blacks">Blacks: </LABEL>
@@ -159,6 +159,6 @@ if __name__ == "__main__":
 </FORM>
 </body>
 </html>
-""" % (show_current_guess(new_guess[0])
+""" 
        return ars 
 
