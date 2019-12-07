@@ -36,7 +36,7 @@ sense. 3 blacks and 1 white make no sense for example. """
       return False
    return True
 
-def get_evaluation():
+def get_evaluation(req):
    """ asks the human player for an evaluation """
    show_current_guess(new_guess[0])
    rightly_positioned = int(input("Blacks: "))
